@@ -10,7 +10,6 @@
 }
 
 body {
-  border: 5px solid rgb(255, 0, 21);
   font-family: "Lato", serif;
 }
 
@@ -59,7 +58,6 @@ body {
 
 /* ----------Banner section container styles---------- */
 .banner-section-container {
-  border: 10px solid rgb(68, 0, 255);
   max-width: 1920px;
   display: flex;
   margin: 0 auto;
@@ -69,7 +67,6 @@ body {
 
 /* -----left side banner text container styles----- */
 .banner-text-container {
-  border: 5px solid rgb(0, 195, 255);
   width: 708px;
   height: 506px;
   display: flex;
@@ -80,14 +77,12 @@ body {
   margin-left: 240px;
 }
 .banner-text-container h1 {
-  border: 5px solid rgb(255, 0, 200);
   font-size: 80px;
   font-weight: 800;
   color: rgb(39, 39, 39);
   margin-bottom: 32px;
 }
 .banner-text-container p {
-  border: 5px solid rgb(28, 117, 6);
   font-size: 18px;
   font-weight: 400;
   color: rgba(39, 39, 39, 0.6);
@@ -96,7 +91,6 @@ body {
 
 /* -----right side banner image container styles----- */
 .banner-image-container {
-  border: 5px solid rgb(184, 142, 4);
   margin-top: 50px;
   width: 635px;
   height: 800px;
@@ -109,7 +103,6 @@ body {
 
 /* ---------- featured flowers section container styles---------- */
 .featured-flowers-container {
-  border: 10px solid rgb(200, 5, 248);
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 128px;
@@ -117,14 +110,12 @@ body {
 
 /* ----------featured flowers section images container styles---------- */
 .featured-flowers-images {
-  border: 5px solid rgb(32, 35, 218);
   display: flex;
   justify-content: space-between;
 }
 
 /* -----featured flowers section single card image styles----- */
 .flower-1 {
-  border: 5px solid rgb(255, 4, 180);
   width: 464px;
   height: 605px;
   background-color: rgba(167, 33, 98, 0.15);
@@ -135,7 +126,6 @@ body {
 }
 
 .flower-2 {
-  border: 5px solid rgb(255, 4, 180);
   width: 464px;
   height: 605px;
   background-color: rgba(5, 151, 160, 0.15);
@@ -145,7 +135,6 @@ body {
   border-radius: 300px 300px 0px 0px;
 }
 .flower-3 {
-  border: 5px solid rgb(255, 4, 180);
   width: 464px;
   height: 605px;
   background-color: rgba(71, 125, 17, 0.15);
@@ -164,7 +153,6 @@ body {
 
 /* -----featured flowers section card button styles----- */
 .flower-card-container {
-  border: 2px solid rgb(49, 252, 9);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,7 +168,6 @@ body {
 
 /* ----------Support section Styles---------- */
 .support {
-  border: 10px solid purple;
   width: 1440px;
   height: 320px;
   border-radius: 8px;
@@ -190,7 +177,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
 }
 
 .support p {
@@ -203,7 +189,6 @@ body {
 /* ----------Hot Deal Section styles---------- */
 
 .hot-deal-container {
-  border: 10px solid gold;
   max-width: 1920px;
   height: 620px;
   margin: 0 auto;
@@ -215,7 +200,6 @@ body {
 
 /* -----Hot Deal Text Container Styles----- */
 .hot-deal-text-container {
-  border: 5px solid red;
   width: 594px;
   height: 228px;
 }
@@ -226,7 +210,6 @@ body {
 
 /* -----Hot Deal Image Container Styles----- */
 .hot-deal-image-container {
-  border: 5px solid green;
   width: 318px;
   height: 420px;
 }
@@ -237,7 +220,6 @@ body {
 
 /* ----------Instagram Section Container Styles---------- */
 .instagram-section-container {
-  border: 5px solid rgb(102, 255, 0);
   max-width: 1440px;
   height: 570px;
   margin: 0 auto;
@@ -252,17 +234,15 @@ body {
 
 /* ----------Latest Deals Section Styles---------- */
 .latest-deals-section {
-  border: 10px solid red;
   width: 1440px;
   height: 449px;
   margin: 0 auto;
   margin-bottom: 128px;
   background-image: url(../assets/footer-flower.png);
-  text-align: center;
-}
-
-.latest-deals-section h3 {
-  margin-top: 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---------input form styles---------- */
@@ -281,12 +261,12 @@ input[type="text"] {
 
 /* ----------footer section styles---------- */
 .footer-section {
-  border: 10px solid orangered;
   height: 449px;
   width: 1920px;
   margin: 0 auto;
   background-color: rgb(17, 16, 16);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-section h3 span {

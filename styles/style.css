@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,6 +32,27 @@ body {
 /* ----------Shared Primary Background Color---------- */
 .bg-primary {
   background-color: rgba(229, 84, 115, 0.1);
+}
+
+/* ----------Shared section title styles---------- */
+.section-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(39, 39, 39);
+  margin-bottom: 24px;
+}
+
+/* ----------Shared section description styles---------- */
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 48px;
+}
+
+/* ----------Shared text center---------- */
+.text-center {
+  text-align: center;
 }
 
 /*--------------------Shared items style ends here--------------------*/
@@ -88,4 +110,68 @@ body {
 .banner-image-container img {
   width: 100%;
   height: 100%;
+}
+
+/* ---------- featured flowers section container styles---------- */
+.featured-flowers-container {
+  border: 10px solid rgb(200, 5, 248);
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+/* ----------featured flowers section images container styles---------- */
+.featured-flowers-images {
+  border: 5px solid rgb(32, 35, 218);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -----featured flowers section single card image styles----- */
+.flower-1 {
+  border: 5px solid rgb(255, 4, 180);
+  width: 464px;
+  height: 605px;
+  background-color: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+}
+
+.flower-2 {
+  border: 5px solid rgb(255, 4, 180);
+  width: 464px;
+  height: 605px;
+  background-color: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+}
+.flower-3 {
+  border: 5px solid rgb(255, 4, 180);
+  width: 464px;
+  height: 605px;
+  background-color: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+}
+
+/* -----featured flowers section card button styles----- */
+.flower-card-container {
+  border: 2px solid rgb(49, 252, 9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flower-card-btn {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+  margin-top: 32px;
 }

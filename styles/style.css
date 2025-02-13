@@ -249,3 +249,32 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* ----------Latest Deals Section Styles---------- */
+.latest-deals-section {
+  border: 10px solid red;
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+  background-image: url(../assets/footer-flower.png);
+  text-align: center;
+}
+
+.latest-deals-section h3 {
+  margin-top: 122px;
+}
+
+/* ---------input form styles---------- */
+input[type="text"] {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(39, 39, 39, 0.6);
+  padding: 23px 513px 22px 22px;
+  margin-right: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}

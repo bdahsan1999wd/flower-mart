@@ -278,3 +278,36 @@ input[type="text"] {
   font-weight: 400;
   border: none;
 }
+
+/* ----------footer section styles---------- */
+.footer-section {
+  border: 10px solid orangered;
+  height: 449px;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: rgb(17, 16, 16);
+  text-align: center;
+}
+
+.footer-section h3 span {
+  color: rgb(229, 84, 115);
+}
+.footer-section h3 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 128px;
+  margin-bottom: 24px;
+}
+
+.footer-section p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.footer-section h6 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}

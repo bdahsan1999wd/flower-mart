@@ -3,6 +3,11 @@
 /* font-family: "Lato", serif; */
 /* font-family: "Poppins", serif; */
 
+/* ----------Smooth Scroll Added---------- */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -290,4 +295,23 @@ input[type="text"] {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
   font-weight: 400;
+}
+
+/* ----------Shopping button Styles for anchor tag---------- */
+.shopping-btn {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lato", serif;
+  border: none;
+  background: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 20px 43px 20px 43px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* -----highlight target using border----- */
+#latest-deals:target {
+  border: 1px solid rgb(220, 11, 252);
 }

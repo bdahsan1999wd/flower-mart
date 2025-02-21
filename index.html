@@ -26,6 +26,9 @@
                 looking at its layout. The point of using Lorem Ipsum is <br> that it has a more-or-less normal
                 distribution of letters.</p>
             <a href="#latest-deals" class="shopping-btn">Shop Now</a>
+            <br>
+            <!----- Dark Mode Added ----->
+            <button onclick="toggleDarkMode()" class="btn-primary">Dark Mode</button>
         </div>
 
         <!----- Banner image container added ----->
@@ -115,7 +118,7 @@
                 <h3 class="section-title">Hot Deal ! Sale Up To 25% <span>Off</span></h3>
                 <p class="section-description">It is a long established fact that a reader will be distracted by the
                     readable <br> content of a page when looking at its layout.</p>
-                <button class="btn-primary">Sign Up</button>
+                <button onclick="discount()" class="btn-primary">Get Discount</button>
             </div>
 
             <!----- Hot Deal Image Container Added ----->
@@ -181,6 +184,23 @@
         <h6>&copy; 2025 - All Rights Reserved by Md. Ahsan Habib.</h6>
     </footer>
 
+    <!----- js ----->
+    <script>
+
+        function discount() {
+            alert('Code: SAVE25')
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+
+        document.querySelector('.subscribe-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert("Thank you for subscribing!");
+        });
+
+    </script>
 </body>
 
 </html>

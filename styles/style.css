@@ -315,3 +315,8 @@ input[type="text"] {
 #latest-deals:target {
   border: 1px solid rgb(220, 11, 252);
 }
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
